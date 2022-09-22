@@ -80,7 +80,18 @@ li {
   color: var(--clr-dark);
   border-radius: 10px;
 }
+.form-control.error input {
+  color: rgb(255, 0, 0);
+  border-width: 1px;
+}
+.submit-form small{
+  color: red;
+  visibility: hidden;
+} 
+.submit-form.error small{
+  visibility: visible;
 
+}
 .title {
   font-size: 1.75rem;
   text-align: center;
@@ -112,6 +123,7 @@ input {
   border-radius: 10px;
   outline: none;
   border: solid;
+  
 }
 
 .btn-light {
